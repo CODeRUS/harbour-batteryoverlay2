@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+X-Nemo-Application-Type=silica-qt5
+X-Nemo-Single-Instance=no
+Icon=harbour-batteryoverlay2
+Exec=harbour-batteryoverlay2
+Name=Battery Overlay
