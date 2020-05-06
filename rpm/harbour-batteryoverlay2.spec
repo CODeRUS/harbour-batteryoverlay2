@@ -10,7 +10,7 @@ Name:       harbour-batteryoverlay2
 
 Summary:    Battery overlay
 Version:    0.2.8
-Release:    1
+Release:    2
 Group:      Qt/Qt
 License:    WTFPL
 URL:        https://github.com/CODeRUS/harbour-batteryoverlay

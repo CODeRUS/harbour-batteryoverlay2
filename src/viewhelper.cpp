@@ -202,7 +202,7 @@ After=dbus.socket pre-user-session.target\n\
 Requires=dbus.socket\n\
 \n\
 [Service]\n\
-ExecStart=/usr/bin/harbour-batteryoverlay daemon\n\
+ExecStart=/usr/bin/harbour-batteryoverlay2 daemon\n\
 Restart=on-failure\n\
 RestartSec=30\n\
 \n\
