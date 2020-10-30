@@ -2,7 +2,10 @@ TARGET = harbour-batteryoverlay2
 
 QT += dbus gui-private
 CONFIG += sailfishapp
-PKGCONFIG += mlite5
+PKGCONFIG += \
+  mlite5 \
+  wayland-client \
+# PKGCONFIG end
 
 DEFINES += APP_VERSION=\\\"$$VERSION\\\"
 
