@@ -21,6 +21,7 @@ class ViewHelper : public QObject
 
 public:
     explicit ViewHelper(QObject *parent = 0);
+    bool eventFilter(QObject *object, QEvent *event);
 
     Q_INVOKABLE void closeOverlay();
     Q_INVOKABLE void startOverlay();
